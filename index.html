@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li id="contact"><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="https://png2.cleanpng.com/dy/f7c8005d6d5a3eb267b4f03a0738200b/L0KzQYm3VsI5N6FoR91yc4Pzfri0gB9ueKZ5feQ2aXPyfsS0iPFuaqZ3f9d7LXL4hMX2jr1ubZ96RdDudz3wdbB8TcVjO2U8SqZsM3PlQLeATsEyQGk5T6c6MUW2QIK9U8c5QGM5UKg3cH7q/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724c3cb0f7.1188475115301637882486.png" alt="Menu" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dG91cmlzbXxlbnwwfDB8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas adipisci minima sequi molestiae
+                    quas atque.
+                </p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1619120238346-978e07731e77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG91cmlzbXxlbnwwfDB8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas adipisci minima sequi molestiae
+                    quas atque.
+                </p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur debitis ab totam. Cum autem temporibus
+                qui dolorem possimus voluptas iure, nihil sapiente ipsa? Veritatis, placeat?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum corporis quibusdam quisquam, consequatur, suscipit optio alias vel at amet, cupiditate totam reprehenderit quasi natus. Necessitatibus maxime perferendis officia accusamus.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col img-col">
+                <div class="img-gallery">
+                    <img src="https://images.unsplash.com/photo-1496372412473-e8548ffd82bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGxhY2VzJTIwdG8lMjB2aXNpdCUyMGluJTIwaW5kaWF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="">
+                    <img src="https://wallpapercave.com/cdn-cgi/mirage/c31e86359a9b12c243b66d20002b1160c6909a65dd18a8444ed7a5eddbb45062/1280/wp/wp5779702.jpg" alt="">
+                    <img src="https://media.altphotos.com/cache/images/2017/01/26/15/1504/woman-kayak-mountains.jpg" alt="">
+                    <img src="https://images.unsplash.com/photo-1506318164473-2dfd3ede3623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGxhY2VzJTIwdG8lMjB2aXNpdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>A-201 Galaxy Adventures, Mumbai, India | Phone: xxx-xxx-xxxx | Email: support@gmail.com</p>
+        <p>Copyright &copy; 2023 Heavenly Adventure</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

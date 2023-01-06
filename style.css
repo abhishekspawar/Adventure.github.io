@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+.active{
+    color: #fc0339;
+    text-decoration: underline;
+    font-weight: bold;
+}
+body, html {
+    overflow-x: hidden;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)) ,url(https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end; /*vertical centering*/
+    justify-content: center; /*horizontal centering*/
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background:#fc0339;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #fc0339;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 50px;
+    filter: invert(100%);
+    cursor: pointer;
+    display: none;
+}
+
+/* Events */
+section {
+    width: 100%;
+    margin: 60px auto; 
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #440083;
+}
+
+.tours .row {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* background-color: red; */
+}
+.events .row .col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col img {
+    width: 80%;
+    /* height: 350px; */
+    border-radius: 10px;
+}
+.events .row {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 90%;
+}
+h4 {
+    font-size: 3.5vmin;
+    color: #440083;
+    margin: 20px auto;
+}
+p {
+    color: #746a7e;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.events .ctn {
+    margin-top: 30px;
+}
+
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)), url(
+        https://wallpapercave.com/cdn-cgi/mirage/c31e86359a9b12c243b66d20002b1160c6909a65dd18a8444ed7a5eddbb45062/1280/wp/wp5779702.jpg
+
+);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.explore-content {
+    width:60% ;
+    padding : 50px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explore-content h1 {
+    font-size: 6vmin;
+}
+.explore-content .line {
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color: rgb(211, 211, 211);
+}
+.explore-content .ctn {
+    margin-top: 40px;
+}
+.tours .img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.tours {
+    width: 90%;
+}
+/* .tours .img-col {
+    margin-left: 20px;
+} */
+/* .tours .row {
+    display: flex;
+    justify-content: space-between;
+} */
+.tours .img-gallery img {
+    width: 46%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.tours .content-col {
+    width: 40%;
+}
+.tours .img-col {
+    width: 60%;
+}
+.content-col h1 {
+    padding: 0 10px;
+    /* text-align: center; */
+    font-size: 6vmin;
+    color: #352e3b;
+}
+.content-col .line {
+    margin-left: 11px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px 15px;
+    text-align: left;
+}
+.footer {
+    width: 100%;
+    height: 90px;
+    padding: 10px 30px;
+    margin: 0;
+    background-color: #440083;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 2.1vmin;
+    margin: 5px auto;
+    color: whitesmoke;
+}
+
+
+/* Mobile device */
+
+@media only screen and (max-width:900px)  {
+    .menu-btn {
+        display: block;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: #641da7;
+        margin-top: -1200px;
+        transition: all 0.5s ease;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .events .row .col {
+        width: 90%;
+        margin:20px 30px;
+    }
+    .tours .row .col {
+        width: 90%;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .col img{
+        max-width: 100%;
+    }
+    .explore-content{
+        width: 100%;
+    }
+    .tours .col {
+        width: 100%;
+    }
+    .img-gallery{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tours .img-gallery img {
+        width: 80%;
+        /* height: 80%; */
+        border-radius: 10px;
+    }
+    .footer p{
+        width: 100% ;
+        padding: 0
+    }
+    
+}
+
+/* Animations */
+img {
+    transition: transform 0.6s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+.ctn:hover {
+    background: whitesmoke;
+    color: #fc0339;
+    box-shadow: 2px 2px 5px rgba(12, 12, 12, 0.473);
+}
+a:hover {
+    color:#fc0339;
+    cursor: pointer;
+    /* text-decoration: underline;  */
+}
+/* .navlinks li:hover {
+    color: #fc0339;
+    
+} */
+.ctn a:hover {
+    /* background: whitesmoke; */
+    color: #fc0339;
+}
