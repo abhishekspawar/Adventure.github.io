@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
-
-/* CSS reset */
 *{
     margin: 0;
     padding: 0;
@@ -85,7 +82,7 @@ header {
 }
 
 .ctn {
-    padding: 0.6em 0.9em;
+    padding: 8px 15px;
     background: #fc0339;
     border-radius: 30px;
     color: whitesmoke;
@@ -158,9 +155,8 @@ p {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)), url(
-        https://wallpapercave.com/cdn-cgi/mirage/c31e86359a9b12c243b66d20002b1160c6909a65dd18a8444ed7a5eddbb45062/1280/wp/wp5779702.jpg
-
-);
+        https://wallpapercave.com/cdn-cgi/mirage/c31e86359a9b12c243b66d20002b1160c6909a65dd18a8444ed7a5eddbb45062/1280/wp/wp5779702.jpg);
+        
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,9 +215,9 @@ p {
     width: 60%;
 }
 .content-col h1 {
-    padding: 0 10px;
+    padding: 0 0.3em;
     /* text-align: center; */
-    font-size: 6vmin;
+    font-size: 3rem;
     color: #352e3b;
 }
 .content-col .line {
