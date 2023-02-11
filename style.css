@@ -92,8 +92,8 @@ header {
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     filter: invert(100%);
     cursor: pointer;
     display: none;
