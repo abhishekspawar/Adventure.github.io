@@ -92,7 +92,8 @@ header {
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 5%;
+    width: 20px;
+    height: 20px;
     filter: invert(100%);
     cursor: pointer;
     display: none;
